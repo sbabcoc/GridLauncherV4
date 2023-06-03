@@ -12,4 +12,4 @@ Here are the problems with the available CLI options that I'm aware of:
 
 ## The Solution: Launch with Discrete Artifacts
 
-Instead of using the uber-JAR, this project uses discrete Java artifacts acquired from your configured Maven repositories. The majority of these are brought in transitively by `selenium-grid`, but this strategy enables targeted remediation of bugs and vulnerabilities via dependency management.
+Instead of using the uber-JAR, this project uses discrete Java artifacts acquired from your configured Maven repositories. The majority of these are brought in transitively by `selenium-grid`, and this strategy enables targeted remediation of bugs and vulnerabilities via dependency management.
