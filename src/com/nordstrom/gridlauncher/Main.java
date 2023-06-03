@@ -11,7 +11,7 @@ import com.nordstrom.common.file.PathUtils;
 import com.nordstrom.common.jar.JarUtils;
 
 public class Main {
-	
+
     private static final String[] DEPENDENCY_CONTEXTS = {
             "org.openqa.selenium.grid.Main",
             "org.openqa.selenium.io.Zip",
@@ -45,12 +45,12 @@ public class Main {
             "io.netty.handler.codec.http.Cookie",
             "io.netty.handler.codec.Headers",
             "com.google.common.util.concurrent.internal.InternalFutures",
-    		"org.openqa.selenium.chrome.ChromeDriver",
+            "org.openqa.selenium.chrome.ChromeDriver",
             "net.bytebuddy.matcher.ElementMatcher",
             "org.openqa.selenium.chromium.ChromiumDriver",
             "org.dataloader.DataLoader"};
 
-	public static void main(String[] args) {
+    public static void main(String[] args) {
         List<String> argsList = new ArrayList<>();
         
         // specify Grid launcher class name
@@ -76,6 +76,5 @@ public class Main {
         process.setEnvironmentVariable("PATH", PathUtils.getSystemPath());
         process.executeAsync();
         process.waitForProcessStarted(300, TimeUnit.SECONDS);
-	}
-
+    }
 }
