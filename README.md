@@ -1,6 +1,6 @@
 # GridLauncherV4
 
-My objective is to launch and manage a local Selenium 4 Grid programmatically, using only the required discrete Java artifacts required by this configuration.
+My objective is to launch and manage a local Selenium 4 Grid programmatically, using only the discrete Java artifacts required by this configuration.
 
 ## Problems with Existing Options
 
